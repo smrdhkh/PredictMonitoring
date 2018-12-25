@@ -1,0 +1,34 @@
+1. alertmanager_alerts_invalid_total:- 
+alertmanager_alerts_invalid_total{instance="envoy-alertmanager.viyayada-ugbu-monitoring.svc:7501",job="kubernetes-apiservers",kubernetes_name="envoy-alertmanager",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}0
+
+2. alertmanager_notifications_total:-
+alertmanager_notifications_total{instance="envoy-alertmanager.viyayada-ugbu-monitoring.svc:7501",integration="email",job="kubernetes-apiservers",kubernetes_name="envoy-alertmanager",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}0
+
+3. alertmanager_notifications_failed_total:-
+alertmanager_notifications_failed_total{instance="envoy-alertmanager.viyayada-ugbu-monitoring.svc:7501",integration="hipchat",job="kubernetes-apiservers",kubernetes_name="envoy-alertmanager",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}0
+
+4. alertmanager_silences_queries_total:-
+alertmanager_silences_queries_total{instance="envoy-alertmanager.viyayada-ugbu-monitoring.svc:7501",job="kubernetes-apiservers",kubernetes_name="envoy-alertmanager",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}21825
+
+5. envoy_http_downstream_rq_total:- 
+envoy_http_downstream_rq_total{envoy_http_conn_manager_prefix="admin",instance="alertmanager-envoy-stats.viyayada-ugbu-monitoring.svc:7504",job="kubernetes-apiservers",kubernetes_name="alertmanager-envoy-stats",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}7293
+
+6. envoy_http_rq_total:-
+envoy_http_rq_total{envoy_http_conn_manager_prefix="ingress_http",instance="apache-exporter-envoy-stats.viyayada-ugbu-monitoring.svc:7504",job="kubernetes-apiservers",kubernetes_name="apache-exporter-envoy-stats",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}14609
+
+7. envoy_listener_admin_downstream_cx_total:-
+envoy_listener_admin_downstream_cx_total{instance="grafana-envoy-stats.viyayada-ugbu-monitoring.svc:7504",job="kubernetes-apiservers",kubernetes_name="grafana-envoy-stats",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}2
+
+8. envoy_server_live:-
+envoy_server_live{instance="grafana-envoy-stats.viyayada-ugbu-monitoring.svc:7504",job="kubernetes-apiservers",kubernetes_name="grafana-envoy-stats",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}1
+
+9. go_memstats_alloc_bytes_total:-
+ go_memstats_alloc_bytes_total{instance="apache-exporter-svc.viyayada-ugbu-monitoring.svc:9117",job="kubernetes-apiservers",kubernetes_name="apache-exporter-svc",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}13953258096
+
+10. go_memstats_frees_total:- 
+go_memstats_frees_total{instance="envoy-prometheus.viyayada-ugbu-monitoring.svc:7501",job="kubernetes-apiservers",kubernetes_name="envoy-prometheus",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}197133394
+
+11.go_memstats_mallocs_total:-
+go_memstats_mallocs_total{instance="envoy-alertmanager.viyayada-ugbu-monitoring.svc:7501",job="kubernetes-apiservers",kubernetes_name="envoy-alertmanager",kubernetes_namespace="viyayada-ugbu-monitoring",occloud_oracle_com_deploy_group="monitoring"}336629379 
+
+12.

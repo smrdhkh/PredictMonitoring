@@ -1,0 +1,10 @@
+1. name
+2. timestamp
+3. value
+4. alertname
+5. alertstate
+6. instance:-prometheus-service.viyayada-ugbu-monitoring.svc:(any four digit number) [7051,7152 e.t.c]
+7. job:-kubernetes-apiservers (Fixed)
+8. kubernetes_name:- prometheus-service (Fixed)
+9. kubernetes_namespace->User name of Vivek(Fixed)
+10. Severity
